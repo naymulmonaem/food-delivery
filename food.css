@@ -40,3 +40,21 @@ header{
     font-weight: 600;
     font-size: 2.4 rem;
 }
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 1.1 rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--main-color);
+    transition: .4s;   
+}
+#menu-icon{
+    font-size: 2 rem;
+    cursor: pointer;
+    display: none;
+}
