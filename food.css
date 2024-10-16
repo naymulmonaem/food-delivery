@@ -95,3 +95,32 @@ section{
     transform: scale(1.2) translateY(10px);
     transition: .4s;
 }
+
+/* about start section */
+.about{
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.about-img img{
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+}
+.about-text h4{
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.about-text h2{
+    font-size: var(--h2-font);
+}
+.about-text p{
+    margin: .8rem, 0 5rem;
+    line-height: 1.7;
+    padding: 1rem 0;
+    /* font-size: var(); */
+}
