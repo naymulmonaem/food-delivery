@@ -122,5 +122,64 @@ section{
     margin: .8rem, 0 5rem;
     line-height: 1.7;
     padding: 1rem 0;
-    /* font-size: var(); */
+}
+
+/* Menu Section */
+.menu-text{
+    text-align: center;
+}
+.menu-text span{
+    color: var(--main-color);
+    font-weight: 600;
+}
+.menu-text h2{
+    font-size: var(--h2-font);
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    position: relative;
+    margin-top: 3rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    background: #fff;
+    padding: 20px;
+    border-radius: .5rem;
+}
+.box-img{
+    width: 250px;
+    height: 250px;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.box h2{
+font-size: 1.2rem;
+color: var(--bg-color);
+}
+.box h3{
+font-size: 1rem;
+color: gray;
+}
+.box p{
+font-size: var(--p-font);
+color: var(--main-color);
+font-weight: 600;
+}
+.box .bx{
+    background: var(--main-color) ;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    padding: 7px 10px;
+    
 }
