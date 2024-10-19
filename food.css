@@ -125,6 +125,10 @@ section{
 }
 
 /* Menu Section */
+.menu{
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
 .menu-text{
     text-align: center;
 }
@@ -186,6 +190,9 @@ font-weight: 600;
     
 }
 /* service section */
+.service{
+    margin: 5% auto;
+}
 .service-text{
     text-align: center;  
 }
@@ -223,7 +230,7 @@ font-weight: 600;
 .s-talk{
     text-align: center;
     background: var(--text-color);
-    margin: 1.5rem 12rem;
+    margin: 5% 12rem;
     border-radius: 10px;
 }
 .s-talk h2{
@@ -234,6 +241,10 @@ font-weight: 600;
     font-size: 1.7rem;
 }
 /* contact section */
+footer{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 .info-article{
     display: flex;
     justify-content: space-around;
