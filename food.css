@@ -98,8 +98,6 @@ section{
 
 /* about start section */
 .about{
-    width: 100%;
-    min-height: 90vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
@@ -107,21 +105,22 @@ section{
 }
 .about-img img{
     max-width: 100%;
-    width: 500px;
+    width: 480px;
     height: auto;
 }
-.about-text h4{
+.about-text span{
     color: var(--main-color);
     font-weight: 600;
-    margin-bottom: 1rem;
 }
 .about-text h2{
     font-size: var(--h2-font);
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .about-text p{
-    margin: .8rem, 0 5rem;
-    line-height: 1.7;
-    padding: 1rem 0;
+    margin: .8rem, 0 1.8rem;
+    line-height:1.7;
+    margin-bottom: 3%;
 }
 
 /* Menu Section */
@@ -129,24 +128,25 @@ section{
     margin-top: 5%;
     margin-bottom: 2.5%;
 }
-.menu-text{
+.heading{
     text-align: center;
 }
-.menu-text span{
+.heading span{
     color: var(--main-color);
     font-weight: 600;
 }
-.menu-text h2{
+.heading h2{
     font-size: var(--h2-font);
 }
 .menu-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-gap: 1.5rem;
     align-items: center;
-    justify-content: space-evenly;
 }
 .box{
     position: relative;
-    margin-top: 3rem;
+    margin-top: 4rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -158,40 +158,40 @@ section{
    
 }
 .box-img{
-    width: 260px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
 }
 .box-img img{
     width: 100%;
     height: 100%;
-    padding: auto 10rem;
+    
 }
 .box h2{
-font-size: 1.2rem;
+font-size: 1.3rem;
 color: var(--bg-color);
 }
 .box h3{
 font-size: 1rem;
-color: gray;
-font-weight: 600;
+color: var(--bg-color);
+font-weight: 400;
 margin: 4px 0 10px; 
 }
-.box p{
+.box span{
 font-size: var(--p-font);
 color: var(--main-color);
 font-weight: 600;
 }
-.bx-cart{
+.box .bx{
     background: var(--main-color) ;
     position: absolute;
-    right:-17px;
+    right:-22px;
     top: 0;
-    font-size: 30px;
+    font-size: 20px;
     padding: 7px 10px;
     
 }
 /* service section */
-.service{
+/* .service{
     margin: 5% auto;
 }
 .service-text{
@@ -203,7 +203,7 @@ font-weight: 600;
 }
 .service-text h2{
     font-size: var(--h2-font);
-}
+} */
 .service-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, auto));
@@ -225,7 +225,7 @@ font-weight: 600;
 .s-box p{
     font-size: var(--p-font);
     font-weight: 500;
-    line-height: 1.5rem;
+    line-height: 1.7;
 }
 /* Let's Talk section */
 .s-talk{
